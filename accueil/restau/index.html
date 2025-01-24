@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>location et colocation</title>
+
+    <body>
+        <header>
+            <a href="#" class="logo">Location<span>&</span>Colocation</a>
+            <div class="menuToggle" onclick="toggleMenu();"></div>
+
+        </header>
+        <section class="banniere" id="banniere">
+            <div class="contenu">
+                <h2>Trouver votre logement parfait !</h2>
+                <a href="#" class="btn1" src="menu">Annonces</a>
+
+            </div>
+        </section>
+
+        <section class=" menu " id="menu ">
+            <div class="titre ">
+                <h2 class="titre-texte "><span>A</span>nnonces</h2>
+                <p> Consultez ses annonces de locations et colocations vous arrivez certainement à trouver votre logement parfait .</p>
+            </div>
+            <div class="contenu ">
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.menzili.tn/immo/agence-immobiliere-manouba "><img src="1.jpg " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.facebook.com/groups/788810677803747/?ref=share "><img src="111.jpg " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.facebook.com/groups/colocationcampusmanouba/?ref=share "><img src="2.png " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.facebook.com/groups/311282440376657/?ref=share "> <img src="11.png " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://tn.loozap.com/ads/agence-immobiliere-immo-service-manouba/19789356.html "><img src="122.jpg " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://visityimmo.tn/ "><img src="logo.svg " alt=" "></a>
+                    </div>
+                    <div class="text ">
+                        <h3>Special salade</h3>
+                    </div>
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.facebook.com/groups/360435954045130 "><img src="n.jpg " alt=" "></a>
+                    </div>
+
+                </div>
+                <div class="box ">
+                    <div class="imbox ">
+                        <a href="https://www.mubawab.tn/ "><img src="mm.png " alt=" "></a>
+                    </div>
+
+                </div>
+            </div>
+            </div>
+            <div class="titre ">
+                <a href="# " class="btn1 ">Voir Plus</a>
+            </div>
+        </section>
+
+
+        <section class="contact " id="contact ">
+            <div class="titre noir ">
+                <h2 class="titre-text "><span>F</span>aites votre découverte</h2>
+                <p> Pour mieux choisir votre emplacement faites un tour dans la ville de manouba .</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25554.883076022856!2d10.060150499028834!3d36.80988321656252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd326a6997b651%3A0xae1949b938bf5487!2sManouba!5e0!3m2!1sfr!2stn!4v1660648334725!5m2!1sfr!2stn "
+                    width="800 " height="600 " style="border:0; " allowfullscreen=" " loading="lazy " referrerpolicy="no-referrer-when-downgrade "></iframe>
+            </div>
+
+
+            <script type="text/javascript ">
+                window.addEventListener('scroll', function() {
+                    const header = document.querySelector('header');
+                    header.classList.toggle("sticky ", window.scrollY > 0);
+                });
+
+                function toggleMenu() {
+                    const tmenuToggle = document.querySelector('.menuToggle');
+                    const navbar = document.querySelector('.navbar');
+                    navbar.classList.toggle('active');
+                    menuToggle.classList.toggle('active');
+                }
+            </script>
+    </body>
+
+</html>

@@ -1,0 +1,74 @@
+header{
+    background-color: #0367A6;
+    height: 15%;
+    width: 100%;
+    
+    margin-top: 0%;
+}
+header img{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    float: left;
+    width: 6%;
+    height: 100%;
+}
+header h1{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    color: azure;
+    margin-left: 15%;
+    margin-top: 0%;
+    font-size: 300%;
+}
+.title{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    background-color: #ffff;
+    color: #004369;
+    height: 10%;
+    font-family: open sans extra bold;
+    font-size: 500%;
+    float: center;
+    margin-left: 15%;
+    margin-top: 1%;
+}
+img{
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 100%;
+    height: 80%;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.lien{
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.un{
+    display: inline-block;
+    float: center;
+    margin: 20px;
+}
+.un h2{
+    margin-left: 135px;
+}
+.lien img{
+    width: 100%;
+    height: 30%;
+    transition: all .2s ease-in-out;
+}
+.lien img:hover{
+    transform: scale(1.2);
+}
